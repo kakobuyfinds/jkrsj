@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#183340">
+<title>OrientDig spreadsheet – danske tips til produktlinks, QC og størrelser</title>
+<meta name="description" content="Brug et OrientDig spreadsheet til at finde varer og sammenligne produktlinks, QC-billeder, mål og fragt. Gå direkte til ti kategorier hos CAFANS.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="OrientDig spreadsheet – fra produktlink til kortliste">
+<meta property="og:description" content="Dansk guide til kategorier, QC-fotos, mål og samlet pris.">
+<style>
+:root{color-scheme:light;--paper:#f8f3ea;--ink:#183340;--muted:#435861;--line:#d4cabb;--white:#fffdf9;--accent:#ffd3af}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #a94a15;outline-offset:4px}img{display:block;width:100%;object-fit:cover}p{max-width:65ch}h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.1}h1{font-size:clamp(2.65rem,7vw,5.65rem);letter-spacing:-.065em;overflow-wrap:anywhere}h2{font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.035em}h3{font-size:1.25rem}p+p{margin-top:.65rem}.wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto}.top{background:var(--ink);color:var(--white)}.bar{min-height:65px;display:flex;justify-content:space-between;align-items:center;gap:1rem}.brand{font-weight:800;letter-spacing:.035em;text-decoration:none}.bar span{font-size:.85rem}.hero{display:grid;grid-template-columns:1.25fr 1fr;margin-top:1.25rem;border:1px solid var(--line);border-radius:1.25rem;overflow:hidden;background:var(--white)}.intro{padding:clamp(1.2rem,4vw,3.2rem);align-self:center}.intro p{margin-top:1rem;color:var(--muted)}.hero figure{position:relative;min-height:290px;background:#e4e3e2}.hero img{height:100%;position:absolute;inset:0}.hero figcaption{position:absolute;bottom:.75rem;left:.75rem;background:var(--white);padding:.3rem .65rem;border-radius:.35rem;font-size:.8rem}.button{display:inline-block;background:var(--ink);color:white;padding:.65rem 1rem;border-radius:.5rem;text-decoration:none;font-weight:700;margin-top:1rem}.button:hover{background:#2a5265}.section{padding-block:clamp(1.6rem,4vw,3rem);border-bottom:1px solid var(--line)}.section>p{margin-top:.65rem;color:var(--muted)}.categories,.steps,.photos,.topics{display:grid;gap:.65rem;margin-top:1rem}.categories{grid-template-columns:repeat(5,minmax(0,1fr))}.categories a{min-height:66px;background:var(--white);border:1px solid var(--line);padding:.7rem .75rem;border-radius:.55rem;display:flex;flex-direction:column;justify-content:center;text-decoration:none;font-weight:700}.categories a:hover{background:var(--accent)}.categories small{color:var(--muted);font-weight:400}.steps{grid-template-columns:repeat(3,minmax(0,1fr));padding-left:1.4rem}.steps li{padding:.35rem .5rem}.steps strong{display:block}.photos{grid-template-columns:repeat(4,minmax(0,1fr))}.photos figure{background:var(--white);border:1px solid var(--line);border-radius:.65rem;overflow:hidden}.photos img{aspect-ratio:1;background:#e4e3e2}.photos figcaption{padding:.6rem;font-size:.875rem}.topics{grid-template-columns:repeat(2,minmax(0,1fr))}.topics article{border-radius:.7rem;padding:1.15rem;background:var(--white);border:1px solid var(--line)}.topics p{margin-top:.65rem}.note{margin-top:1rem;padding:.85rem 1rem;background:var(--accent);border-radius:.65rem}details{border-bottom:1px solid var(--line);padding:.8rem 0}details p{padding:.5rem 0 .1rem}summary{cursor:pointer;font-weight:700}footer{padding:1.25rem 0 2rem;font-size:.9rem;color:var(--muted)}
+@media(max-width:820px){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:600px){.hero,.steps,.topics{grid-template-columns:1fr}.hero figure{min-height:0;aspect-ratio:4/3}.categories,.photos{grid-template-columns:repeat(2,minmax(0,1fr))}.bar span{display:none}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebPage",
+      "inLanguage":"da",
+      "name":"OrientDig spreadsheet – danske tips til produktlinks, QC og størrelser",
+      "description":"Brug et OrientDig spreadsheet til at finde varer og sammenligne produktlinks, QC-billeder, mål og fragt. Gå direkte til ti kategorier hos CAFANS."
+    },
+    {
+      "@type":"FAQPage",
+      "inLanguage":"da",
+      "mainEntity":[
+        {"@type":"Question","name":"Hvad er et OrientDig spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Det er en oversigt over produktlinks, som ofte er grupperet efter varetype. En række kan også have en variant, et prisnotat eller billeder. Åbn produktlinket for at tjekke den aktuelle annonce."}},
+        {"@type":"Question","name":"Kan et QC-foto vise, om en vare er ægte?","acceptedAnswer":{"@type":"Answer","text":"Et QC-foto kan vise synlige detaljer på det fotograferede eksemplar. Ægthed kræver særskilt dokumentation, for eksempel en verificerbar købshistorik."}},
+        {"@type":"Question","name":"Hvordan sammenligner jeg størrelser?","acceptedAnswer":{"@type":"Answer","text":"Mål et tilsvarende stykke tøj, du allerede bruger, liggende fladt. Sammenlign målene i centimeter med tabellen for den konkrete variant. For sko skal du tjekke, om sælgerens tabel viser fodlængde eller indvendig længde."}},
+        {"@type":"Question","name":"Hvad indgår i den samlede pris til Danmark?","acceptedAnswer":{"@type":"Answer","text":"Sammenlign varepris, eventuel fragt i afsenderlandet, international fragt, betalingsgebyrer og eventuelle importomkostninger. Kontrollér, hvilke beløb der allerede er opkrævet, før du regner totalen om til danske kroner."}},
+        {"@type":"Question","name":"Hvor fører kategorilinkene hen?","acceptedAnswer":{"@type":"Answer","text":"De fører til de tilsvarende kategorier hos CAFANS. Guiden har ingen officiel tilknytning til OrientDig eller de viste mærker."}}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/jkrsj/">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="https://www.cafans.com">www.cafans.com</a><span>Dansk guide til produktvalg</span></div></header>
+<main class="wrap">
+  <section class="hero" aria-labelledby="titel">
+    <div class="intro">
+      <h1 id="titel">OrientDig spreadsheet</h1>
+      <p>Et OrientDig spreadsheet samler links til varer, du kan undersøge nærmere. Brug kategorierne til at finde det, du leder efter, og sammenlign derefter den valgte variant, målene og den forventede totalpris.</p>
+      <a class="button" href="https://www.cafans.com">Åbn CAFANS</a>
+    </div>
+    <figure>
+      <img src="https://alssports.vteximg.com.br/arquivos/ids/3879892/10613661x1238466.jpg?v=639047797771100000" width="760" height="760" alt="Hvid Nike Air Force 1-sneaker med hvid sål" fetchpriority="high" loading="eager">
+      <figcaption>Nike Air Force 1 · stilreference</figcaption>
+    </figure>
+  </section>
+
+  <section class="section" aria-labelledby="kategorier">
+    <h2 id="kategorier">Find din kategori</h2>
+    <nav class="categories" aria-label="Produktkategorier hos CAFANS">
+      <a href="https://cafans.com/category-911-Shoes.html">Sko<small lang="en">Shoes</small></a>
+      <a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Hættetrøjer og strik<small lang="en">Hoodies/Sweaters</small></a>
+      <a href="https://cafans.com/category-913-T-Shirts.html">T-shirts<small lang="en">T-Shirts</small></a>
+      <a href="https://cafans.com/category-914-Jackets.html">Jakker<small lang="en">Jackets</small></a>
+      <a href="https://cafans.com/category-915-Pants%2FShorts.html">Bukser og shorts<small lang="en">Pants/Shorts</small></a>
+      <a href="https://cafans.com/category-916-Headwear.html">Hovedbeklædning<small lang="en">Headwear</small></a>
+      <a href="https://cafans.com/category-917-Sets.html">Sæt<small lang="en">Sets</small></a>
+      <a href="https://cafans.com/category-918-underwear%2Funderpants.html">Undertøj<small lang="en">Underwear/underpants</small></a>
+      <a href="https://cafans.com/category-919-Jersey.html">Sportstrøjer<small lang="en">Jersey</small></a>
+      <a href="https://cafans.com/category-920-Accessories.html">Tilbehør<small lang="en">Accessories</small></a>
+    </nav>
+  </section>
+
+  <section class="section" aria-labelledby="guide">
+    <h2 id="guide">Fra produktlink til kortliste</h2>
+    <ol class="steps">
+      <li><strong>Tjek produktlinket</strong> Åbn den aktuelle annonce. Gem varenummer, sælgernavn, farvekode og dato for dit tjek, så du kan finde samme variant igen.</li>
+      <li><strong>Læs mål og QC-billeder</strong> Notér målemetoden, og find billeder af den valgte farve. Skriv ned, hvilke vinkler eller mål der mangler.</li>
+      <li><strong>Regn den samlede pris ud</strong> Skriv varepris, fragt og gebyrer hver for sig. Gem valuta og dato for kursen, så du kan sammenligne to varer i DKK.</li>
+    </ol>
+    <p class="note"><strong>Eksempel på en brugbar note</strong> · Sort jakke, størrelse M, brystbredde 56 cm målt fladt. Bed om et nærbillede af lynlåsen, og tjek pakkemål før bestilling.</p>
+  </section>
+
+  <section class="section" aria-labelledby="billeder">
+    <h2 id="billeder">Stilreferencer</h2>
+    <p>Se efter de samme detaljer på billeder af din valgte variant. Her er fire eksempler på motiver, du kan bede om.</p>
+    <div class="photos">
+      <figure><img src="https://posters.freecaster.com/videos/louisvuitton/d6f0f9a8-b6ee-3985-8ef4-bf8c8951f5fa-1716984710/1090.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Model i sort Louis Vuitton T-shirt med tryk og lys Speedy-taske"><figcaption>Louis Vuitton · trykkets placering</figcaption></figure>
+      <figure><img src="https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1635459330/673251_3HAFX_2564_009_100_0000_Light-Casquette-en-toileGG-avec-cristaux.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Beige Gucci-kasket i GG-canvas med krystaller og mørk skyggekant"><figcaption>Gucci · kaskettens skygge og mønster</figcaption></figure>
+      <figure><img src="https://assets.hermes.com/is/image/hermesproduct/clic-hh-so-black-bracelet--703203FK01-worn-1-0-0-1000-1000_b.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Sort Hermès Clic HH-armbånd vist på et håndled"><figcaption>Hermès · armbåndets bredde på håndleddet</figcaption></figure>
+      <figure><img src="https://assets.christiandior.com/is/image/diorprod/943J605A0554C080_E01-3?%24default_GHC%24=&amp;crop=438%2C150%2C1130%2C1358" width="480" height="480" loading="lazy" decoding="async" alt="Hvid Dior CD Icon T-shirt i bomuld"><figcaption>Dior · halsudskæring og brystdetalje</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="emner">
+    <h2 id="emner">Fire korte guides til dit næste køb</h2>
+    <div class="topics">
+      <article><h3>Produktlinks og varianter</h3><p>Brug sælgerens varenummer til at finde den samme annonce igen, hvis et produktlink er udløbet. Se efter ændringer i produktbeskrivelsen, modellens farvekode, størrelsesvalget og sælgerens aktuelle lagerstatus. Hvis to annoncer bruger samme katalogbillede, kan materialebeskrivelsen og de tilgængelige varianter stadig være forskellige.</p></article>
+      <article><h3>QC-billeder af sko og tilbehør</h3><p>Ved sneakers kan du bede om en sideprofil, et billede af begge hæle og et foto af sålmønstret. Se efter forskelle mellem højre og venstre sko, og bed om den indvendige længde i centimeter. For en kasket er skyggeform og lukning bagpå nyttige detaljer. For smykker kan et foto af låsen og et mål for armbåndets omkreds gøre det lettere at vurdere pasformen.</p></article>
+      <article><h3>Størrelsesguide til tøj og sæt</h3><p>Sammenlign brystbredde, skulderbredde og ryglængde med en T-shirt, du allerede bruger. Til en jakke bør du også måle ærmelængden og tage højde for plads til en trøje. Tjek taljemål og indvendig benlængde for bukser. Ved et todelt sæt er det værd at spørge, om overdel og underdel kan vælges i hver sin størrelse.</p></article>
+      <article><h3>Fragt og totalpris til Danmark</h3><p>Sæt varepris, indenrigsfragt og betalingsgebyr på hver sin linje. Bed om pakkens længde, bredde, højde og faktiske vægt, hvis fragtprisen afhænger af volumenvægt. Tjek også leveringsestimatet, og spørg, hvilke eventuelle importomkostninger der er medregnet. Omregn alle poster til DKK med samme kurs, når du sammenligner tilbud.</p></article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="faq">
+    <h2 id="faq">Spørgsmål om OrientDig spreadsheet</h2>
+    <details><summary>Hvad er et OrientDig spreadsheet?</summary><p>Det er en oversigt over produktlinks, som ofte er grupperet efter varetype. En række kan også have en variant, et prisnotat eller billeder. Åbn produktlinket for at tjekke den aktuelle annonce.</p></details>
+    <details><summary>Kan et QC-foto vise, om en vare er ægte?</summary><p>Et QC-foto kan vise synlige detaljer på det fotograferede eksemplar. Ægthed kræver særskilt dokumentation, for eksempel en verificerbar købshistorik.</p></details>
+    <details><summary>Hvordan sammenligner jeg størrelser?</summary><p>Mål et tilsvarende stykke tøj, du allerede bruger, liggende fladt. Sammenlign målene i centimeter med tabellen for den konkrete variant. For sko skal du tjekke, om sælgerens tabel viser fodlængde eller indvendig længde.</p></details>
+    <details><summary>Hvad indgår i den samlede pris til Danmark?</summary><p>Sammenlign varepris, eventuel fragt i afsenderlandet, international fragt, betalingsgebyrer og eventuelle importomkostninger. Kontrollér, hvilke beløb der allerede er opkrævet, før du regner totalen om til danske kroner.</p></details>
+    <details><summary>Hvor fører kategorilinkene hen?</summary><p>De fører til de tilsvarende kategorier hos CAFANS. Guiden har ingen officiel tilknytning til OrientDig eller de viste mærker.</p></details>
+  </section>
+</main>
+<footer class="wrap">Produktbillederne er stilreferencer. Se vareudvalget hos <a href="https://www.cafans.com">www.cafans.com</a>.</footer>
+</body>
+</html>
